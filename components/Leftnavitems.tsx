@@ -6,14 +6,17 @@ import { Icons } from "./Icons";
 
 const Leftnavitems = () => {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-x-4">
       <Logo />
+      <div className="lg:flex hidden">
       <div className="p-2">
         Components
       </div>
       <div className="p-2">
         Pricing
       </div>
+      </div>
+
     </div>
   );
 };
