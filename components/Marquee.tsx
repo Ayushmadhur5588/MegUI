@@ -2,7 +2,7 @@ import { marquee } from "@/constants/constant";
 import * as motion from "framer-motion/client";
 import Image from "next/image";
 
-export default function Asd() {
+export default function Marquee() {
   return (
     <motion.div
       initial={{ opacity: 0 }}

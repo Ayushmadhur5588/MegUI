@@ -1,4 +1,4 @@
-import Asd from "./Asd";
+import Marquee from "./Marquee";
 
 // components/Hero.tsx
 const Hero = () => {
@@ -19,7 +19,7 @@ const Hero = () => {
           Custom Components
         </button>
       </div>
-      <Asd />
+      <Marquee />
     </section>
   );
 };
